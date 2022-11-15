@@ -11,8 +11,8 @@
 
 ## Oppgaver
 
-- [Containere](containers/README.md)
-- [Volumer](volumes/README.md)
-- [Nettverk](networks/README.md)
-- [Images](images/README.md)
-- [Compose](compose/README.md)
+1. [Containere](containers/README.md)
+2. [Volumer](volumes/README.md)
+3. [Nettverk](networks/README.md)
+4. [Images](images/README.md)
+5. [Compose](compose/README.md)

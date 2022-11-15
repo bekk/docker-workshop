@@ -40,3 +40,12 @@ Sjekk at den fungerer ved å gå inn på http://localhost:8000.
 ### Oppgave 2
 
 Når du har fått til å servere filen fra nginx, prøv å åpne filen i din favoritteditor, endre den, og last siden på nytt!
+
+### Oppgave 3
+
+Prøv å gå til en fil/sti i nettleseren (f.eks. http://localhost:8000/nope) som nginx ikke vil finne. Du får forhåpentligvis "404 Not Found" tilbake. Men hvordan kan vi debugge dette? Hvor leter nginx etter fila? Sjekk loggen til nginx/containeren!
+
+<details>
+  <summary>Hint!</summary>
+  Docker har en kommando vi ikke har sett på enda som heter `docker logs`. `docker logs [container-navn]` gir deg output fra selve containeren, og hvis ting er satt opp riktig betyr gjerne dette programmet som startes i containeren
+</details>

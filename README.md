@@ -15,4 +15,4 @@
 - [Volumer](volumes/README.md)
 - [Nettverk](networks/README.md)
 - [Images](images/README.md)
-- [Compose](compose/README.dm)
+- [Compose](compose/README.md)

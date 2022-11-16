@@ -20,7 +20,6 @@ Lag en enkel index.html-fil:
 docker run --volume $(pwd):/usr/share/nginx/html --publish 8000:80 --name my-nginx --detach nginx:alpine
 ```
 
-**TODO: Trenger noe her om vanlige volumer og, ikke bare mount volumes**
 
 ## Oppgaver
 

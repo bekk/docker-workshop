@@ -59,7 +59,6 @@ Endre på teksten som serveres av nginx på http://localhost:8000. For å få ti
 
 <details>
   <summary>Tips</summary>
-  For å åpne et shell mot containeren kan du bruke kommandoen `docker exec`, som kjører en kommando i selve containeren. `docker exec -it /bin/sh` starter et interaktivt shell i containeren, slik at du kan skrive kommandoer der.
 
   `vi` er litt knotete å bruke. En enkel måte å endre filen på er å :
 

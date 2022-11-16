@@ -75,7 +75,3 @@ Endre på teksten som serveres av nginx på http://localhost:8000. For å få ti
 
   Åpne nettleseren igjen, og se den oppdaterte teksten!
 </details>
-
----
-
-[Tilbake](/README.md) | [Neste del: Volumer](/volumes/README.md)

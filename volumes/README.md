@@ -33,7 +33,7 @@ docker run --volume $(pwd):/usr/share/nginx/html --publish 8000:80 --name my-ngi
 
 ### Oppgave 1
 
-Vi så i sted at det er mulig å endre en hva som serveres av nginx hvis man åpner et shell mot containeren og editerer filen med `vi`. Dette er kjekt, men også litt for begrenset. Hva hvis man vil bruke en helt annen editor, eller skal jobbe med flere filer?
+Vi så i sted at det er mulig å endre en hva som serveres av nginx hvis man åpner et shell mot containeren og editerer filen med `vi`. Dette er kjekt, men også litt for begrenset og knotete. Hva hvis man vil bruke en helt annen editor, eller skal jobbe med flere filer?
 
 Lag en enkel html-fil i denne mappen. Den kan inneholde
 ```html

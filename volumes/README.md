@@ -8,6 +8,7 @@
   <summary>Offisiell dokumentasjon</summary>
 
   - [docker run](https://docs.docker.com/engine/reference/run/)
+  - [docker logs](https://docs.docker.com/engine/reference/commandline/logs/)
 </details>
 
 Docker støtter å lage "volumer" for å persistere data eller hente data fra utsiden av selve containeren. Det finnes flere forskjellige typer volumer, og det vi skal se på nå er det Docker kaller for "bind mounts". Et bind mount er en mappe eller fil på harddisken som er tilgjengeliggjort fra innsiden av containeren.

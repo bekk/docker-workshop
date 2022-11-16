@@ -8,9 +8,12 @@
   <summary>Offisiell dokumentasjon</summary>
 
   - [docker image](https://docs.docker.com/engine/reference/commandline/image/)
+  - [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
 </details>
 
-Se hvilke images du allerede har på maskinen din
+Containere opprettes fra det Docker kaller for images. En analogi fra objektorientert programmering er at man kan se på imaget som en _klasse_, og containeren som en _instans_ av denne klassen. Man kan lage flere containere fra samme image, på samme måte som at man kan lage flere instanser av samme klasse.
+
+Docker holder en oversikt over alle imagene man har lokalt på maskinen:
 ```
 docker image ls
 ```
@@ -22,9 +25,14 @@ docker image pull nginx:alpine
 
 Gå til https://hub.docker.com og sjekk hvilke andre versjoner av `nginx`-imaget som er tilgjengelig
 
-Man kan fjerne ubrukte images med
+Etter hvert fylles maskinen opp med flere og flere images, og da kan det være kjekt å fjerne de ubrukte:
 ```
 docker image prune
+```
+
+Det er også mulig å fjerne enkelt-images:
+```
+docker rmi nginx:alpine
 ```
 
 

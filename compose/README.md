@@ -19,11 +19,11 @@ version: "3"
 services:
   db:
     image: postgres:alpine
-    env:
+    environment:
       POSTGRES_PASSWORD: password
   server:
     image: trymsneltvedt/pg-server:latest
-    env:
+    environment:
       DB_PASS: password
       DB_HOST: db
     ports:

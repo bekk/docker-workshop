@@ -1,6 +1,6 @@
 # Docker networks
 
-[Agenda](/README.md) | [1. Containere](/containers/README.m) | [2. Volumer](/volumes/README.md) | 3. Nettverk | [4. Images](/images/README.md) | [5. Compose](/compose/README.md) | [6. Dockerfile](/dockerfiles/README.md)
+[Agenda](/README.md) | [1. Containere](/containers/README.md) | [2. Volumer](/volumes/README.md) | 3. Nettverk | [4. Images](/images/README.md) | [5. Compose](/compose/README.md) | [6. Dockerfile](/dockerfiles/README.md)
 
 ## Praktisk
 

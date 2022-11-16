@@ -76,4 +76,4 @@ Endre på teksten som serveres av nginx på http://localhost:8000. For å få ti
 
 ---
 
-[Tilbake](/) | [Neste del: Volumer](/volumes/README.md)
+[Tilbake](/README.md) | [Neste del: Volumer](/volumes/README.md)

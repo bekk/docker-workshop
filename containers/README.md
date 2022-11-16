@@ -5,7 +5,8 @@
 ## Praktisk
 
 <details>
-  <summary>Offisiell dokumentasjon:</summary>
+  <summary>Offisiell dokumentasjon</summary>
+
   - [docker run](https://docs.docker.com/engine/reference/run/)
   - [docker ps](https://docs.docker.com/engine/reference/commandline/ps/)
   - [docker stop](https://docs.docker.com/engine/reference/commandline/stop/)

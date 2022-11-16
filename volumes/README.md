@@ -18,6 +18,8 @@ Bind mounts lages når man starter en container:
 docker run --volume /path/til/mappe:/path/inni/containeren --publish 8000:80 --name my-nginx --detach nginx:alpine
 ```
 
+>Obs : Docker forstår ikke relative paths når du spesifiserer mappen på disk. Man må ha full path til mappa!
+
 På denne måten blir `/path/til/mappe` tilgjengelig på innsiden av containeren på `/path/inni/containeren`.
 
 Lag en enkel index.html-fil:

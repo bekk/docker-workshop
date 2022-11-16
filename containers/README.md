@@ -35,7 +35,9 @@ Containere består av en eller flere "innkapslede" prosesser. Dette kan vi utnyt
 
 Følgende kommando starter et shell (kommandolinje) inne i en container, og kobler den til terminalen du bruker. (merk at `my-nginx` containeren må være kjørende)
 
+```
 docker exec --interactive --tty my-nginx /bin/sh
+```
 
 I dette shellet har du tilgang til alle verktøy som er installert i containeren, det kan være ganske begrenset for å spare plass, men de aller vanligste verktøyene er ofte tilgjengelige. Se og naviger deg rundt i containeren med `ls` og `cd`, og når du er ferdig kan du trykke `Ctrl+d` for å "logge ut" av shellet.
 

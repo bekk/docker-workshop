@@ -1,5 +1,7 @@
 # Docker containers
 
+[Agenda](/README.md) | 1. Containers | [2. Volumer](/images/README.md) | [3. Nettverk](/networks/README.md) | [4. Images](/images/README.md) | [5. Compose](/compose/README.md) | [6. Dockerfile](/dockerfiles/README.md)
+
 ## Praktisk
 
 [Offisiell dokumentasjon](https://docs.docker.com/engine/reference/commandline/container/)

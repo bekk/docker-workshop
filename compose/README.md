@@ -53,12 +53,10 @@ Legg til en nginx-tjeneste i compose-filen og gjør det mulig å nå den fra net
 
 Lag en bind mount til nginx-tjenesten sånn at den kan servere din egen index.html-fil.
 
-<details>
-  <summary>Hint!</summary>
-  Man kan legge til bind mounts for mappen man befinner seg i til tjenester med
+**Hint!**
+
+Man kan legge til bind mounts for mappen man befinner seg i til tjenester med
 ```yaml
 volumes:
   - .:[path i container]
 ```
-</details>
-

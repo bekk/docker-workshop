@@ -4,6 +4,13 @@
 
 ## Praktisk
 
+<details>
+  <summary>Offisiell dokumentasjon</summary>
+
+  - [docker run](https://docs.docker.com/engine/reference/run/)
+  - [docker network](https://docs.docker.com/engine/reference/commandline/network/)
+</details>
+
 Hva om vi har lyst til å koble sammen containere?
 
 Man kan opprette nettverk internt i Docker og koble containere på disse. Dette gjør at containerne kan snakke med hverandre.

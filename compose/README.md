@@ -4,6 +4,12 @@
 
 ## Praktisk
 
+<details>
+  <summary>Offisiell dokumentasjon</summary>
+
+  - [docker compose](https://docs.docker.com/compose/reference/)
+</details>
+
 Generelt slitsomt å opprette masse containere, volumer og nettverk på denne "manuelle" måten, men vi kan bruke _docker compose_
 
 lag en fil som heter `compose.yaml`:

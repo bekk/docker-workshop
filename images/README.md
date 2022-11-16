@@ -4,6 +4,12 @@
 
 ## Praktisk
 
+<details>
+  <summary>Offisiell dokumentasjon</summary>
+
+  - [docker image](https://docs.docker.com/engine/reference/commandline/image/)
+</details>
+
 Se hvilke images du allerede har på maskinen din
 ```
 docker image ls

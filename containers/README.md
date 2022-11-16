@@ -2,6 +2,8 @@
 
 ## Praktisk
 
+[Offisiell dokumentasjon](https://docs.docker.com/engine/reference/commandline/container/)
+
 Start en nginx-container
 ```
 docker run --detach --publish 8000:80 --name my-nginx nginx:alpine
@@ -71,3 +73,7 @@ Endre på teksten som serveres av nginx på http://localhost:8000. For å få ti
 
   Åpne nettleseren igjen, og se den oppdaterte teksten!
 </details>
+
+---
+
+[Tilbake](/) | [Neste del: Volumer](/volumes/README.md)

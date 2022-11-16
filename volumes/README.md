@@ -14,7 +14,8 @@
 Docker støtter å lage "volumer" for å persistere data eller hente data fra utsiden av selve containeren. Det finnes flere forskjellige typer volumer, og det vi skal se på nå er det Docker kaller for "bind mounts". Et bind mount er en mappe eller fil på harddisken som er tilgjengeliggjort fra innsiden av containeren.
 
 Bind mounts lages når man starter en container:
-```
+
+```sh
 docker run --volume /path/til/mappe:/path/inni/containeren --publish 8000:80 --name my-nginx --detach nginx:alpine
 ```
 
@@ -23,13 +24,15 @@ docker run --volume /path/til/mappe:/path/inni/containeren --publish 8000:80 --n
 På denne måten blir `/path/til/mappe` tilgjengelig på innsiden av containeren på `/path/inni/containeren`.
 
 Lag en enkel index.html-fil:
+
 ```html
 <h1>Hello</h1>
 ```
 
-```
+```sh
 docker run --volume $(pwd):/usr/share/nginx/html --publish 8000:80 --name my-nginx --detach nginx:alpine
 ```
+
 >Obs: på Windows vil `$(pwd)` funker dårlig. Her er det enkleste å angi full sti til mappa man står i på formatet `C:\path\til\mappe`.
 
 ## Oppgaver
@@ -39,6 +42,7 @@ docker run --volume $(pwd):/usr/share/nginx/html --publish 8000:80 --name my-ngi
 Vi så i sted at det er mulig å endre en hva som serveres av nginx hvis man åpner et shell mot containeren og editerer filen med `vi`. Dette er kjekt, men også litt for begrenset og knotete. Hva hvis man vil bruke en helt annen editor, eller skal jobbe med flere filer?
 
 Lag en enkel html-fil i denne mappen. Den kan inneholde
+
 ```html
 <h1>Hello</h1>
 ```

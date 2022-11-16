@@ -13,6 +13,7 @@
 Når arkitekturen blir stor nok kan det bli slitsomt å opprette masse containere, volumer og nettverk på denne "manuelle" måten. Heldigvis har vi _docker compose_!
 
 lag en fil som heter `compose.yaml`:
+
 ```yaml
 version: "3"
 
@@ -31,7 +32,8 @@ services:
 ```
 
 Lagre den, og i samme mappe som filen, kjør
-```
+
+```sh
 docker compose up
 ```
 
@@ -39,7 +41,7 @@ Dette vil starte to containere med riktige instillinger, og lage et nettverk som
 
 Man kan også kjøre `docker compose up` med `--detach` for å kjøre containerne i bakgrunnen. For å stoppe containerene når man er detached kan man enten stoppe hver enkelt container, eller kjøre denne kommandoen fra mappa der `compose.yaml`-fila ligger:
 
-```
+```sh
 docker compose down
 ```
 
@@ -56,6 +58,7 @@ Lag en bind mount til nginx-tjenesten sånn at den kan servere din egen index.ht
 **Hint!**
 
 Man kan legge til bind mounts for mappen man befinner seg i til tjenester med
+
 ```yaml
 volumes:
   - .:[path i container]

@@ -15,29 +15,34 @@
 </details>
 
 Start en nginx-container
-```
+
+```sh
 docker run --detach --publish 8000:80 --name my-nginx nginx:alpine
 ```
 
 Gå til http://localhost:8000 og se at det fungerer
 
 Se hvilke containere som kjører
-```
+
+```sh
 docker ps
 ```
 
 Stop containeren
-```
+
+```sh
 docker stop my-nginx
 ```
 
 Merk at `docker ps` i utgangspunktet kun viser containere som kjører, se _alle_ containere med
-```
+
+```sh
 docker ps --all
 ```
 
 Fjern containeren helt med
-```
+
+```sh
 docker rm my-nginx
 ```
 
@@ -47,7 +52,7 @@ Containere består av en eller flere "innkapslede" prosesser. Dette kan vi utnyt
 
 Følgende kommando starter et shell (kommandolinje) inne i en container, og kobler den til terminalen du bruker. (merk at `my-nginx` containeren må være kjørende)
 
-```
+```sh
 docker exec --interactive --tty my-nginx /bin/sh
 ```
 

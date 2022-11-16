@@ -17,7 +17,7 @@ Et image lages med en oppskrift. En oppskrift som forteller hva man skal ta utga
 
 For å bygge et image fra en oppskrift bruker man kommandoen fra mappa man har Dockerfilen i
 
-```
+```sh
 docker build -t repo-navn/image-navn:latest .
 ```
 
@@ -27,7 +27,7 @@ docker build -t repo-navn/image-navn:latest .
 
 Lag en enkel Dockerfile med dette innholder:
 
-```
+```Dockerfile
 FROM alpine
 CMD ["echo", "Hello, World!"]
 ```
@@ -38,8 +38,6 @@ Bygg et image, og kjør det. Klarer du å få ut "Hello, World!"?
 
 Endre Dockerfilen slik at den pinger vg.no.
 
-
 ### Oppgave 3
 
 Dra ut URLen til en miljøvariabel slik at du kan sende den inn når du starter containeren.
-

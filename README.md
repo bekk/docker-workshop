@@ -7,7 +7,7 @@
 
 ## Presentasjon
 
-[Presentasjon](slides/DockerWorkshop.pptx)
+[Presentasjon](slides/DockerWorkshop.pdf)
 
 ## Oppgaver
 

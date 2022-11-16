@@ -1,5 +1,7 @@
 # Docker images
 
+[Agenda](/README.md) | [1. Containere](/containers/README.md) | [2. Volumer](/volumes/README.md) | [3. Nettverk](/networks/README.md) | 4. Images | [5. Compose](/compose/README.md) | [6. Dockerfile](/dockerfiles/README.md)
+
 ## Praktisk
 
 Se hvilke images du allerede har på maskinen din

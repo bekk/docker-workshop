@@ -1,5 +1,7 @@
 # Container orchestration med Docker Compose
 
+[Agenda](/README.md) | [1. Containere](/containers/README.md) | [2. Volumer](/volumes/README.md) | [3. Nettverk](/networks/README.md) | [4. Images](/images/README.md) | 5. Compose | [6. Dockerfile](/dockerfiles/README.md)
+
 ## Praktisk
 
 Generelt slitsomt å opprette masse containere, volumer og nettverk på denne "manuelle" måten, men vi kan bruke _docker compose_

@@ -1,5 +1,7 @@
 # Docker volumes
 
+[Agenda](/README.md) | [1. Containere](/containers/README.md) | 2. Volumer | [3. Nettverk](/networks/README.md) | [4. Images](/images/README.md) | [5. Compose](/compose/README.md) | [6. Dockerfile](/dockerfiles/README.md)
+
 ## Praktisk
 
 Docker støtter å lage "volumer" for å persistere data eller hente data fra utsiden av selve containeren. Det finnes flere forskjellige typer volumer, og det vi skal se på nå er det Docker kaller for "bind mounts". Et bind mount er en mappe eller fil på harddisken som er tilgjengeliggjort fra innsiden av containeren.

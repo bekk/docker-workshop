@@ -4,7 +4,13 @@
 
 ## Praktisk
 
-[Offisiell dokumentasjon](https://docs.docker.com/engine/reference/commandline/container/)
+Offisiell dokumentasjon:
+
+- [docker run](https://docs.docker.com/engine/reference/run/)
+- [docker ps](https://docs.docker.com/engine/reference/commandline/ps/)
+- [docker stop](https://docs.docker.com/engine/reference/commandline/stop/)
+- [docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
+- [docker exec](https://docs.docker.com/engine/reference/commandline/exec/)
 
 Start en nginx-container
 ```

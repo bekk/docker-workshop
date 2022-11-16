@@ -28,7 +28,7 @@ Lag en enkel index.html-fil:
 ```
 docker run --volume $(pwd):/usr/share/nginx/html --publish 8000:80 --name my-nginx --detach nginx:alpine
 ```
-
+>Obs: på Windows vil `$(pwd)` funker dårlig. Her er det enkleste å angi full sti til mappa man står i på formatet `C:\path\til\mappe`.
 
 ## Oppgaver
 

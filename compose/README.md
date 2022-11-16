@@ -37,7 +37,7 @@ docker compose up
 
 Dette vil starte to containere med riktige instillinger, og lage et nettverk som de blir koblet på.
 
-Man kan også kjøre `docker compose up` med `--detach` for å kjøre containerne i bakgrunnen. For å stoppe containerene når man er detached kan man enten stoppe hver enkelt container, eller kjøre denne kommandoen fra mappa der `docker-compose.yml`-fila ligger:
+Man kan også kjøre `docker compose up` med `--detach` for å kjøre containerne i bakgrunnen. For å stoppe containerene når man er detached kan man enten stoppe hver enkelt container, eller kjøre denne kommandoen fra mappa der `compose.yaml`-fila ligger:
 
 ```
 docker compose down
@@ -56,9 +56,9 @@ Lag en bind mount til nginx-tjenesten sånn at den kan servere din egen index.ht
 <details>
   <summary>Hint!</summary>
   Man kan legge til bind mounts for mappen man befinner seg i til tjenester med
-  ```yaml
-  volumes:
-    - .:[path i container]
-  ```
+```yaml
+volumes:
+  - .:[path i container]
+```
 </details>
 
